@@ -71,7 +71,7 @@ impl Make{
             mint: mint_a,
             system_program,
             token_program
-        }.invoke();
+        }.invoke()?;
 
 
 
